@@ -11,15 +11,16 @@ terciario (links):#B08BBB
 /* 
     */
 :root {
-  --primary-color: #0d644a;
+  --primary-color: #97f5bb;
   --secondary-color: #a5f1e9;
-  --tertiary-color: #b08bbb;
+  --tertiary-color: #daa7f1;
+  --box-shadow: 2px 5px 10px grey;
 }
 
 body {
-  background-color: #e1ffeea8;
-  margin-left: 50px;
-  margin-right: 50px;
+  background-color: #a5f1e980;
+  margin-left: 70px;
+  margin-right: 70px;
   padding-bottom: 100px;
 }
 
@@ -27,15 +28,13 @@ h1 {
   font-family: "Ubuntu", sans-serif;
   font-size: 25px;
   font-weight: 500;
-  margin: 15px 50px;
   font-style: italic;
 }
 h2 {
-  color: var(--primary-color);
+  color: black;
   font-family: "Ubuntu", sans-serif;
   font-size: 45px;
   font-weight: 555;
-  margin: 50px 50px 15px 50px;
 }
 h3 {
   font-family: "Ubuntu", sans-serif;
@@ -49,20 +48,41 @@ h4 {
   font-size: 25px;
   font-weight: 550;
   text-align: center;
-  padding: 8px 0px;
 }
 
 p {
   font-family: "Heebo", sans-serif;
 }
 
-.profile-picture {
-  border: 3px solid var(--primary-color);
-  border-radius: 50%;
-  display: inline;
-  margin: 25px;
+.navbar {
+  padding-top: 1.5%;
+  font-size: 20px;
 }
-
-.card {
-  background-color: #fcf8e8;
+.heading {
+  margin: 50px 50px 15px 50px;
+}
+.profile-picture {
+  border: 3px solid var(--tertiary-color);
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  box-shadow: var(--box-shadow);
+}
+.personal-presentation {
+}
+.section {
+  background-image: linear-gradient(hsla(155, 85%, 28%, 0.205), #f1e6a762);
+  border: 2.5px solid var(--tertiary-color);
+  border-radius: 10px;
+  margin: 15px;
+  padding: 10px;
+  box-shadow: var(--box-shadow);
+}
+.btn {
+  background: var(--tertiary-color);
+  border: 3px solid var(--tertiary-color);
+  box-shadow: var(--box-shadow);
+}
+.button-cv {
+  margin: 30px 20px 20px 20px;
 }
