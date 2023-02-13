@@ -6,19 +6,20 @@ colores:
 primario (titulos grandes):#7FBCD2
 secundario (subtitulos):#A5F1E9
 terciario (links):#B08BBB 
+background-color: #a5f1e980;
 */
 
 /* 
     */
 :root {
-  --primary-color: #97f5bb;
-  --secondary-color: #a5f1e9;
-  --tertiary-color: #daa7f1;
+  --primary-color: #62876f;
+  --secondary-color: #9f8773;
+  --tertiary-color: #acb992;
   --box-shadow: 2px 5px 10px grey;
 }
 
 body {
-  background-color: #a5f1e980;
+  background-color: white;
   margin-left: 70px;
   margin-right: 70px;
   padding-bottom: 100px;
@@ -31,12 +32,13 @@ h1 {
   font-style: italic;
 }
 h2 {
-  color: black;
+  color: var(--primary-color);
   font-family: "Ubuntu", sans-serif;
   font-size: 45px;
   font-weight: 555;
 }
 h3 {
+  color: var(--primary-color);
   font-family: "Ubuntu", sans-serif;
   font-size: 28px;
   font-weight: 550;
@@ -44,6 +46,7 @@ h3 {
 }
 
 h4 {
+  color: var(--primary-color);
   font-family: "Ubuntu", sans-serif;
   font-size: 25px;
   font-weight: 550;
@@ -62,7 +65,7 @@ p {
   margin: 50px 50px 15px 50px;
 }
 .profile-picture {
-  border: 3px solid var(--tertiary-color);
+  border: 4px solid var(--secondary-color);
   border-radius: 50%;
   display: block;
   margin: auto;
@@ -71,8 +74,8 @@ p {
 .personal-presentation {
 }
 .section {
-  background-image: linear-gradient(hsla(155, 85%, 28%, 0.205), #f1e6a762);
-  border: 2.5px solid var(--tertiary-color);
+  background-color: #d7e9b931;
+  border: 2.5px solid var(--secondary-color);
   border-radius: 10px;
   margin: 15px;
   padding: 10px;
