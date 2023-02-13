@@ -20,8 +20,7 @@ background-color: #a5f1e980;
 
 body {
   background-color: white;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-top: 2px;
   padding-bottom: 10px;
 }
 
@@ -61,6 +60,13 @@ p {
   font-family: "Heebo", sans-serif;
 }
 
+#footer {
+  margin: 20px;
+}
+.first-section,
+.second-section {
+  margin: 15px;
+}
 .navbar {
   padding-top: 1.5%;
   font-size: 20px;
@@ -99,4 +105,8 @@ p {
   font-weight: 500;
   text-decoration: none;
   color: var(--primary-color);
+}
+.linkedin,
+.email {
+  padding: 15px;
 }
