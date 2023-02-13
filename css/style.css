@@ -38,6 +38,7 @@ h2 {
   font-size: 45px;
   font-weight: 555;
   text-align: center;
+  padding-top: 50px;
 }
 h3 {
   color: var(--primary-color);
@@ -92,4 +93,10 @@ p {
 }
 .button-cv {
   margin: 30px 20px 20px 20px;
+}
+.contact-link {
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--primary-color);
 }
