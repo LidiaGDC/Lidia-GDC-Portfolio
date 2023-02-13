@@ -22,7 +22,7 @@ body {
   background-color: white;
   margin-left: 70px;
   margin-right: 70px;
-  padding-bottom: 100px;
+  padding-bottom: 10px;
 }
 
 h1 {
@@ -30,12 +30,14 @@ h1 {
   font-size: 25px;
   font-weight: 500;
   font-style: italic;
+  text-align: center;
 }
 h2 {
   color: var(--primary-color);
   font-family: "Ubuntu", sans-serif;
   font-size: 45px;
   font-weight: 555;
+  text-align: center;
 }
 h3 {
   color: var(--primary-color);
@@ -51,6 +53,7 @@ h4 {
   font-size: 25px;
   font-weight: 550;
   text-align: center;
+  padding: 15px;
 }
 
 p {
@@ -72,6 +75,7 @@ p {
   box-shadow: var(--box-shadow);
 }
 .personal-presentation {
+  padding: 15px;
 }
 .section {
   background-color: #d7e9b931;
